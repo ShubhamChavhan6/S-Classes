@@ -1,0 +1,41 @@
+# ============================================================
+# S-Classes Root Git Ignore
+# ============================================================
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node / Frontend
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/dist-ssr/
+frontend/*.local
+
+# Java / Maven / Backend
+backend/target/
+backend/apache-maven-3.9.6/
+backend/jdk-21.0.3+9/
+backend/*.zip
+
+# Sensitive files / Config containing API keys and passwords
+backend/src/main/resources/application.properties
+
+# Local execution scripts with absolute system paths
+backend/run_backend.bat

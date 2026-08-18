@@ -1,0 +1,6 @@
+{
+  "name": "S-Classes",
+  "description": "AI-Powered Learning Platform for all ages with interactive courses, quizzes, and Gemini AI Tutor",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
